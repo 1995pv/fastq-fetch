@@ -1,0 +1,6 @@
+# One run accession per line.
+# Lines starting with '#' and blank lines are ignored.
+# Example: three runs from a public E. coli sequencing project.
+SRR15829425
+SRR15829426
+SRR15829427

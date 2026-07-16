@@ -1,0 +1,20 @@
+# Sequencing data — never commit
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.sra
+.sra_tmp/
+fastq/
+data/
+
+# Outputs
+*.log
+samplesheet.csv
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*~

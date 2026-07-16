@@ -1,0 +1,9 @@
+name: fastq-fetch
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - sra-tools>=3.0
+  - entrez-direct
+  - pigz
+  - curl
