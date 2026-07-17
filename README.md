@@ -10,6 +10,7 @@
 
 > 🇧🇷 **Documentação em português:** [`docs/guia_pt.md`](docs/guia_pt.md) — guia introdutório, sem jargão, com glossário.
 > 🇬🇧 **English documentation:** [`docs/guide_en.md`](docs/guide_en.md)
+> 🪟 **No Windows?** [`docs/guia_windows.md`](docs/guia_windows.md) — setup completo via Git Bash ou WSL, com tabela de erros comuns.
 
 ---
 
@@ -41,6 +42,8 @@ conda activate fastq-fetch
 ```
 
 or manually: `conda install -c bioconda sra-tools entrez-direct pigz`
+
+> **Windows users:** bioconda has no Windows builds — the SRA route requires WSL. See [`docs/guia_windows.md`](docs/guia_windows.md).
 
 ---
 

@@ -33,6 +33,8 @@ conda activate fastq-fetch
 
 > Se você for usar só a rota mais simples (a "ENA", explicada adiante), a maioria dos computadores já vem com o necessário (`curl`, `md5sum`, `awk`). O comando acima cobre as duas rotas.
 
+> 🪟 **Está no Windows?** Esse comando **não vai funcionar** — os programas de bioinformática não têm versão Windows. Siga o [guia específico de Windows](guia_windows.md) antes de continuar.
+
 ---
 
 ## As duas "rotas" (caminhos) para baixar
