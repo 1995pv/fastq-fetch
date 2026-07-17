@@ -149,7 +149,7 @@ download_and_verify() {
         else
             warn "Transfer failed for $(basename "$dest")."
         fi
-        (( attempt++ ))
+        attempt=$((attempt + 1))
         sleep 3
     done
     return 1
@@ -306,7 +306,7 @@ main() {
     local -a FAILED=()
     local run idx=0
     for run in "${RUNS[@]}"; do
-        (( idx++ ))
+        idx=$((idx + 1))
         log "${C_DIM}[${idx}/${#RUNS[@]}]${C_OFF} Processing $run"
         if [[ "$SOURCE" == "ena" ]]; then
             if fetch_from_ena "$run"; then SUCCESSFUL+=("$run"); else FAILED+=("$run"); fi
